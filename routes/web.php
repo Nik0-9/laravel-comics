@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $nav_links = config('nav');
     $comics = config('comics');
+    $footer_nav = config('footer_links');
 
-    return view('home', compact('nav_links'), compact('comics'));
+    return view('home', compact('nav_links','comics','footer_nav'));
 });
