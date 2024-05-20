@@ -16,7 +16,9 @@
 </head>
 <body>
     @include('partials.header')
-    
+    @include('partials.jumbo')
+    @include('partials.main')
+
 </body>
 
 </html>

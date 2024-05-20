@@ -48,3 +48,48 @@ header {
         transform: scaleX(1);
     }
 }
+
+#jumbo {
+    background-image: url('/resources/img/jumbotron.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+}
+// MAIN 
+main {
+    background-color: #1C1C1C;
+    color: white;
+    img{
+        max-height: 350px;
+        transition: 0.5s;
+    &:hover{
+        opacity: 0.6;
+        }
+    }
+}
+
+.load-more{
+    font-size: large;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #0282F9;
+    transition: 0.5s;
+    &:hover{
+    color: #0282F9;
+        background-color: white;
+    }
+}
+
+.series{
+    width: 250px;
+    padding: 6px 10px;
+    background-color: #0282F9;
+    transform: translateY(-100%);
+    transition: 0.5s;
+    &:hover{
+    color: #0282F9;
+        background-color: white;
+    }
+}
+
