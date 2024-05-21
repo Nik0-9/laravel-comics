@@ -17,7 +17,7 @@
 <body>
     @include('partials.header')
     @include('partials.jumbo')
-    @include('partials.main')
+    @yield('main')
     @include('partials.footer.footer_top')
 </body>
 

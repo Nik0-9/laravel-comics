@@ -20,3 +20,11 @@ Route::get('/', function () {
 
     return view('home', compact('nav_links','comics','footer_nav'));
 });
+
+Route::get('/dettaglio', function () {
+    $nav_links = config('nav');
+    $comics = config('comics');
+    $footer_nav = config('footer_links');
+    return view('detail', compact('nav_links','comics','footer_nav'));
+
+});
